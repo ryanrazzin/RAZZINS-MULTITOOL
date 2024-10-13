@@ -37,7 +37,7 @@ echo 27. Windows Settings
 echo 28. Disk Cleanup
 echo 29. System Restore
 echo 30. Close
-set /p choice=Select an option (1-30):
+set /p choice=Select an option:
 
 if %choice%==1 goto sysinfo
 if %choice%==2 goto listfiles
